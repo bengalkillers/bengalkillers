@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 import { routes } from './app.router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { ContactComponent } from './contact/contact.component';
+//import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { BlogComponent } from './blog/blog.component';
@@ -14,7 +14,7 @@ import { BlogComponent } from './blog/blog.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    ContactComponent,
+    //ContactComponent,
     AboutComponent,
     GalleryComponent,
     BlogComponent
