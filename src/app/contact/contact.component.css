@@ -1,3 +1,33 @@
 #success_message{ display: none;}
+.alert.alert-success {
+	text-align: center;
+}
 
+.form-group.required .control-label:after {
+  content:"*";color:red;
+}
+
+.noticeReq {
+	margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.minReq {
+	color: #FF0000;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.paragraphReq {
+	font-size: 15px;	
+}
+
+.help-block.with-errors {
+	font-size: 12px;
+}
+
+#contact_form .control-label {
+	font-size: 15px;
+}
 
